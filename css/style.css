@@ -641,12 +641,12 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: #1a1a1a;
-
-    /* background-image: url("../img/bottam-bg.png");
+    /* border: 5px solid #000; */
+    background-image: url("../img/bottam-bg.png");
     border: 1px solid #000;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: 100% 50%; */
+    background-size: 108% 43%;
+    background-position: 91% 127%;
 }
 .scrollsection{
     width: 100%;
@@ -698,6 +698,10 @@
     margin-right: 15px;
     /* padding-right: 400px; */
 }
+
+
+
+
 .explore-more-btn {
     display: flex;
     justify-content: center;
