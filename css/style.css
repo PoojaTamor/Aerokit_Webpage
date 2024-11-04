@@ -798,6 +798,7 @@
     padding: 7px 25px ;
     border-radius: 50px;
     transition: all 0.5s;
+    cursor: pointer;
     
 
 }
