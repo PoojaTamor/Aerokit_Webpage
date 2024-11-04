@@ -415,24 +415,24 @@
     background-repeat: no-repeat;
 }
 
-.sec-white-bg {
+/* .sec-white-bg {
     height: max-content;
     width: 100%;
     background-image: url("../img/sec-white-bg.png");
     background-position: 0px -713px;
     background-size: 100% 150%;
     background-repeat: no-repeat;
-}
+} */
 
 
-/* .sec-white-bg {
+.sec-white-bg {
     height: max-content;
     width: 100%;
     background-image: url("../img/sec-white-bg.png");
-    background-position: 6px -426px;
-    background-size: 100% 150%;
+    background-position: 0px -219px;
+    background-size: 100% 104%;
     background-repeat: no-repeat;
-} */
+}
 
 
 .white-section {
@@ -793,8 +793,14 @@
     border: 1px solid #fff8f8;
     padding: 7px 25px ;
     border-radius: 50px;
+    transition: all 0.5s;
     
 
+}
+
+.bottom-last-section span:hover{
+    background-color: var(--secondary);
+    color: var(--primary);
 }
 
 /*** Header ***/
