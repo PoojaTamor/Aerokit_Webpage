@@ -890,7 +890,11 @@
     .search-btn {
         font-size: 10px;
     }
-
+ .abot-section{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
     .about-title {
         font-size: 1.6rem;
     }
