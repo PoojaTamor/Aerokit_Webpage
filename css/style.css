@@ -427,9 +427,9 @@
 
 .yellow {
     position: absolute;
-    right: -8px;
+    right: 0px;
     top: 243px;
-    width: 102%;
+    width: 100%;
     background-color: #FCCD10;
     transform: rotate(-3deg);
     overflow: hidden;
@@ -808,7 +808,7 @@
         width: 29px;
     }
     .top-div {
-        padding-right: 30px;
+        padding-right: 15px;
         padding-block: 17px;
     }
 
@@ -890,11 +890,11 @@
     .search-btn {
         font-size: 10px;
     }
- .abot-section{
+
+    .abot-section{
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
-    
     .about-title {
         font-size: 1.6rem;
     }
@@ -936,6 +936,7 @@
     .faq-section {
         background-size: 115% 39%;
         background-position: 91% 127%;
+        /* padding: 50px px; */
     }
     .accordion-button {
         font-size: 1rem;
@@ -951,7 +952,7 @@
         padding: 11px 26px;
     }
     .feature-heading {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .scrollsection {
@@ -966,7 +967,7 @@
 
     }
     .bottom-last-section p {
-        font-size: 12px;
+        font-size: 11px;
         margin-bottom: 37px;
     }
     .bottom-last-section span {
@@ -982,7 +983,80 @@
         padding: 50px  0px;
     
     }
+
+    .sec-white-last-box {
+        padding: 10px 0px 136px 0px;
+    }
+    .feature-container2 {
+        margin: 50px 0px 20px 0px ;
+    }
    
+    .section-title2 p {
+        font-size: 12px;
+    }
+    .feature-top-text{
+        font-size: 15px !important;
+    }
+    .feature-item  h5 {
+        font-size: 1.2rem;
+    }
+    .feature-item  p {
+        font-size: 12px;
+    }
+    .feature-section svg{
+        width: 60px !important;
+    }
+    .feature-item svg {
+        margin-top: 0rem;
+    }
+    .feature-item1{
+        padding: 0px;
+    }
+    .faq-section .col-8 {
+        padding: 0px;
+    }
+    .feature-container {
+        margin-top: 2rem;
+    }
+    .slanted-background {
+        padding-block: 0px;
+        padding-top: 20px;
+    }
+    .scrolling-text{
+        font-size: 1rem !important;
+    }
+    .scrolling-text2 {
+        font-size: 1rem !important;
+
+    }
+  
+    .yellow {
+        position: absolute;
+        right: 0px;
+        top: 31px;
+        width: 112%;
+        background-color: #FCCD10;
+        transform: rotate(-6deg);
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .kit-description{
+        font-size: 6px;
+        margin-top: 0px;
+        padding-left: 10px;
+    }
+    .kit-card img{
+        width: 100%;
+    }
+    .kit-box {
+        margin-left: 0px;
+    }
+    .slanted-section{
+        padding-top: 0px;
+    }
+    .white-section {
+        background-size: 100% 102%;
+    }
 }
 
 
