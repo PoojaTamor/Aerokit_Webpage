@@ -896,7 +896,7 @@
         border-bottom-right-radius: 20px;
     }
     .about-title {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     .about-left svg {
         width: 110px;
@@ -911,7 +911,7 @@
     }
     .about-heading {
  
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .explore-btn {
@@ -992,7 +992,7 @@
     }
    
     .section-title2 p {
-        font-size: 12px;
+        font-size: 11px;
     }
     .feature-top-text{
         font-size: 15px !important;
@@ -1041,7 +1041,7 @@
         white-space: nowrap;
     }
     .kit-description{
-        font-size: 6px;
+        font-size: 7px;
         margin-top: 0px;
         padding-left: 10px;
     }
@@ -1058,6 +1058,3 @@
         background-size: 100% 102%;
     }
 }
-
-
-
