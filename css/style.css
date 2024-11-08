@@ -1057,4 +1057,25 @@
     .white-section {
         background-size: 100% 102%;
     }
+    .aerokit-title{
+        padding-left: 20px;
+    }
+    .aerokit-title p{
+        font-size: 15px;
+    }
+    .aerokit-title h2 {
+        font-size: 1.7rem;
+        margin-bottom: 40px;
+    }
+    .aerokit-section {
+        background-color: #000;
+        color: #fff;
+        position: relative;
+        padding:36px 0;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 75px;
+        border-top-left-radius: 88px;
+        border-bottom-left-radius: 20px;
+        margin-bottom: 20px;
+    }
 }
