@@ -1156,4 +1156,14 @@
     .bottomcopyright{
         font-size: 12px;
     }
+
+
+     .btn-whatsapp-pulse {
+    bottom: 34px;
+    right: 22px;
+    font-size: 31px;
+    padding: 23px;
+   
+}
+
 }
