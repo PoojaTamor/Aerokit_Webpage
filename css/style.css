@@ -7,6 +7,10 @@
     --light: #F5F5F5;
 }
 
+::selection{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
 
 *{
     margin: 0px;
@@ -739,6 +743,76 @@
 }
 
 
+/* ---------whatsap--- */
+.btn-whatsapp-pulse {
+    background: #25D366; /* WhatsApp green */
+    color: white;
+    position: fixed;
+    bottom: 55px;
+    left: 28px;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;
+    z-index: 10;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+.btn-whatsapp-pulse:hover {
+    color: black;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); /* Adjusted to WhatsApp green */
+    }
+    80% {
+        box-shadow: 0 0 0 14px rgba(37, 211, 102, 0); /* Adjusted to WhatsApp green */
+    }
+}
+
+.btn-whatsapp-pulse-border {
+    bottom: 120px;
+    right: 20px;
+    animation-play-state: paused;
+}
+
+.btn-whatsapp-pulse-border::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    padding: 25px;
+    opacity: 0.75;
+    animation-name: pulse-border;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    background: rgba(37, 211, 102, 0.2); /* Adjusted for border effect */
+}
+
+@keyframes pulse-border {
+    0% {
+        padding: 25px;
+        opacity: 0.75;
+    }
+    75% {
+        padding: 50px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
 @media (max-width: 768px) {
 .search-bar-containertop {
    visibility: visible;
@@ -1077,5 +1151,9 @@
         border-top-left-radius: 88px;
         border-bottom-left-radius: 20px;
         margin-bottom: 20px;
+    }
+
+    .bottomcopyright{
+        font-size: 12px;
     }
 }
