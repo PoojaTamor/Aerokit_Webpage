@@ -276,6 +276,10 @@
     transition: background-color 0.3s, color 0.3s;
   }
 
+  .explore-btn:hover svg path {
+    fill: black;
+}
+
   .explore-btn:hover {
     background-color: #f4f4f4;
     color: #111;
@@ -412,7 +416,8 @@
 .slanted-background {
     padding-block: 20px;
 /* border: 1px solid #000; */
- background-color: var(--primary);
+background: linear-gradient(to right, #111 50%, #FCCD10 100%);
+ /* background-color: var(--primary); */
  overflow: hidden;
  white-space: nowrap;
 }
@@ -427,8 +432,6 @@
     overflow: hidden;
     white-space: nowrap;
 } */
-
-
 .yellow {
     position: absolute;
     right: 0px;
@@ -478,11 +481,6 @@
 
     }
 }
-
-
-
-
-
 .custom-shape-divider-top-1730717384 {
     position: absolute;
     top: 0;
@@ -504,11 +502,6 @@
 .custom-shape-divider-top-1730717384 .shape-fill {
     fill: #FFFFFF;
 }
-
-
-
-
-
 
 .aerokit-section {
     background-color: #000; /* Black background */
@@ -928,11 +921,7 @@
 }
 
 
-@media (max-width: 500px) {
-
-
-
-
+@media (max-width: 500px) { 
     .kit-button {
         margin: 6px 1px;
         border-radius: 20px;
@@ -1114,6 +1103,9 @@
         overflow: hidden;
         white-space: nowrap;
     }
+    .custom-shape-divider-top-1730717384 svg{
+        display: none;
+    }
     .kit-description{
         font-size: 7px;
         margin-top: 0px;
@@ -1146,24 +1138,23 @@
         color: #fff;
         position: relative;
         padding:36px 0;
-        border-bottom-right-radius: 20px;
-        border-top-right-radius: 75px;
-        border-top-left-radius: 88px;
-        border-bottom-left-radius: 20px;
+       border-radius: 30px;
         margin-bottom: 20px;
     }
+    /* .content-container  */
+    .content-container {
+        padding-top: 30px;}
 
     .bottomcopyright{
         font-size: 12px;
     }
 
-
-     .btn-whatsapp-pulse {
-    bottom: 34px;
-    right: 22px;
-    font-size: 31px;
-    padding: 23px;
-   
-}
-
+    .btn-whatsapp-pulse {
+        bottom: 34px;
+        right: 22px;
+        font-size: 31px;
+        padding: 23px;
+       
+    }
+    
 }
