@@ -16,14 +16,6 @@
     new WOW().init();
 
 
-    // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            $('.sticky-top').addClass('shadow-sm').css('top', '0px');
-        } else {
-            $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
-        }
-    });
     
     
     // Back to top button
@@ -39,52 +31,63 @@
         return false;
     });
 
-
-    // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 10,
-        time: 2000
+$(document).ready(function(){
+    $('.slider').slick({
+      slidesToShow: 3, // 3 slides on desktop
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 768, // Below 768px (Mobile)
+          settings: {
+            slidesToShow: 1, // Show 1 slide
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 992, // Below 992px (Tablet)
+          settings: {
+   
+              slidesToShow: 2, // Show 2 slides
+            slidesToScroll: 1,
+          }
+        }
+      ]
     });
-
-
-    // Header carousel
-    $(".header-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        items: 1,
-        dots: true,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ]
-    });
-
-
-    // Testimonials carousel
-    $('.testimonial-carousel').owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        loop: true,
-        nav: false,
-        dots: true,
-        items: 1,
-        dotsData: true,
-    });
-
-
-    // Portfolio isotope and filter
-    var portfolioIsotope = $('.portfolio-container').isotope({
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-    });
-    $('#portfolio-flters li').on('click', function () {
-        $("#portfolio-flters li").removeClass('active');
-        $(this).addClass('active');
-
-        portfolioIsotope.isotope({filter: $(this).data('filter')});
-    });
+  });
+  
     
 })(jQuery);
 
+
+$(document).ready(function(){
+    $('.slider').slick({
+      slidesToShow: 3, // 3 slides on desktop
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 768, // Below 768px (Mobile)
+          settings: {
+            slidesToShow: 1, // Show 1 slide
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 992, // Below 992px (Tablet)
+          settings: {
+   
+              slidesToShow: 2, // Show 2 slides
+            slidesToScroll: 1,
+          }
+        }
+      ]
+    });
+  });
+  
