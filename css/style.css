@@ -92,7 +92,7 @@
     height: 100vh;
     background-color: var(--primary);
     /* background-image: url("../img/bg.png"); */
-    background-image: url("../img/firstbg.png");
+    background-image: url("../img/firstbg.webp");
     
     background-repeat: no-repeat;
     background-position: center center;
@@ -252,7 +252,7 @@
 } */
  
 .about-bg {
-    background-image: url("../img/about-bg.png");
+    background-image: url("../img/about-bg.webp");
     background-repeat: no-repeat;
     background-size: 50% 99%;
     background-position: 0% 40%;
@@ -370,7 +370,7 @@
 .white-section {
     height: max-content;
     width: 100%;
-    background-image: url("../img/Fram.png");
+    background-image: url("../img/Fram.webp");
     background-position: 0px 0px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -381,6 +381,9 @@
 .kit-box{
     margin-left: 100px;
 }
+.slick-dots li button{
+    display:none;
+  }
 
 .kit-card img {
     border-radius: 10px;
@@ -574,7 +577,7 @@ background-color: #000;
     border-top-right-radius: 20px;
     color: #1a1a1a;
     /* border: 5px solid #000; */
-    background-image: url("../img/bottam-bg.png");
+    background-image: url("../img/bottam-bg.webp");
     background-repeat: no-repeat;
     background-size: 108% 43%;
     background-position: 91% 127%;
@@ -630,9 +633,6 @@ background-color: #000;
     /* padding-right: 400px; */
 }
 
-
-
-
 .explore-more-btn {
     display: flex;
     justify-content: center;
@@ -679,12 +679,12 @@ background-color: #000;
     height: 1rem;
     margin-left: auto;
     content: "";
-    background-image: url("../img/faq.png");
+    background-image: url("../img/faq.webp");
     background-repeat: no-repeat;
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("../img/faq.png");
+    background-image: url("../img/faq.webp");
     transform: rotate(-180deg);
 }
 
@@ -699,7 +699,7 @@ background-color: #000;
     justify-content: center;
     align-items: center;
     padding: 200px 0px 100px 0px;
-    background-image: url("../img/bootom-bg-image.png");
+    background-image: url("../img/bootom-bg-image.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
@@ -741,12 +741,9 @@ background-color: #000;
     background-color: var(--secondary);
     color: var(--primary);
 }
-
 .bottomcopyright{
     border-color: var(--primary) !important;
 }
-
-
 /* ---------whatsap--- */
 .btn-whatsapp-pulse {
     background: #25D366; /* WhatsApp green */
@@ -923,7 +920,7 @@ background-color: #000;
         height: 0.5rem;
         margin-left: auto;
         content: "";
-        background-image: url("../img/faq.png");
+        background-image: url("../img/faq.webp");
         background-repeat: no-repeat;
     }
     .explore-more-btn {
@@ -1038,7 +1035,6 @@ background-color: #000;
     }
     .bottom-last-section h6 {
         font-size: 1.5rem;
-
     }
     .bottom-last-section p {
         font-size: 11px;
@@ -1103,7 +1099,6 @@ background-color: #000;
         font-size: 1rem !important;
 
     }
-  
     .yellow {
         position: absolute;
         right: 0px;
@@ -1118,10 +1113,23 @@ background-color: #000;
         display: none;
     }
     .kit-description{
-        font-size: 7px;
+        font-size: 15px;
         margin-top: 0px;
-        padding-left: 10px;
+        padding-left: 20px;
     }
+
+    .slider .col-4 {
+        margin-right: 20px; /* Gap between slides */
+      }
+      
+      .slider .row>*  {
+        padding-left: 40px;
+        padding-right: 20px;
+      }
+      
+      .slick-dots li button{
+        display:block;
+      }
     .kit-card img{
         width: 100%;
     }
@@ -1159,13 +1167,10 @@ background-color: #000;
     .bottomcopyright{
         font-size: 12px;
     }
-
     .btn-whatsapp-pulse {
         bottom: 34px;
         right: 22px;
         font-size: 31px;
-        padding: 23px;
-       
-    }
-    
+        padding: 23px;  
+    }  
 }
